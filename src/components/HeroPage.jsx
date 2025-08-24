@@ -32,8 +32,9 @@ function HeroPage() {
               Development
             </p>
             <a
-              href={portoPdf}
-              download="CV.pdf"
+              href="/tegar-maulana.portofolio.io/pdf/CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn bg-marine border-none shadow-md mt-5"
             >
               Download CV
