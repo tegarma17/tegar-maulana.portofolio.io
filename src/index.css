@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@theme {
+  --font-navbar: "Albert Sans", sans-serif;
+  --font-main: "Gudea", sans-serif;
+
+  --color-black: #000000;
+  --color-blue: #4062bb;
+  --color-marine: #59c3c3;
+  --color-putih: #ebebeb;
+  --color-merahjambu: #f45b69;
+}
