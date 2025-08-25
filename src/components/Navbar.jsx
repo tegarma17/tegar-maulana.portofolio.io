@@ -25,42 +25,51 @@ const Navbar = () => {
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <HiBars3BottomRight className="text-black text-xl" />
           </div>
-          <ul tabIndex={0} className="menu menu-lg dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+          <ul
+            tabIndex={0}
+            className="menu menu-lg dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+          >
             <li>
-              <a>Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a>Tentang Saya</a>
+              <a href="#about">Tentang Saya</a>
             </li>
             <li>
-              <a>Keahlian</a>
+              <a href="#keahlian">Keahlian</a>
             </li>
             <li>
-              <a>Project</a>
+              <a href="#pendidikan">Pendidikan</a>
+            </li>
+            <li>
+              <a href="#project">Project</a>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl text-blue font-bold font-navbar tracking-tighter">Tegar</a>
+        <a className="btn btn-ghost text-xl text-blue font-bold font-navbar tracking-tighter">
+          Tegar
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-main text-lg text-black">
           <li className="font-bold text-blue ">
-            <a>Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a>Tentang Saya</a>
+            <a href="#about">Tentang Saya</a>
           </li>
           <li>
-            <a>Keahlian</a>
+            <a href="#keahlian">Keahlian</a>
           </li>
           <li>
-            <a>Project</a>
+            <a href="#pendidikan">Pendidikan</a>
+          </li>
+          <li>
+            <a href="#project">Project</a>
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <li className="btn border-none bg-blue">Kontak Saya</li>
-      </div>
+      <div className="navbar-end"></div>
     </div>
   );
 };

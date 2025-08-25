@@ -1,9 +1,10 @@
 import { motion } from "motion/react";
 import Hero from "../assets/image/hero.png";
 import portoPdf from "../assets/pdf/CV.pdf";
+import { section } from "motion/react-client";
 function HeroPage() {
   return (
-    <div className="HeroPage">
+    <section id="home" className="HeroPage">
       <div className="hero bg-putih min-h-screen font-main">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <motion.img
@@ -42,7 +43,7 @@ function HeroPage() {
           </motion.div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 export default HeroPage;

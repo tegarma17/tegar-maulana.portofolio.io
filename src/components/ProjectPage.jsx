@@ -8,7 +8,7 @@ import image6 from "../assets/image/desain1.png";
 import image7 from "../assets/image/desain2.png";
 function ProjectPage() {
   return (
-    <section className="bg-white py-10 font-main">
+    <section id="project" className="bg-white py-10 font-main">
       <div className="container mx-auto">
         <div className="project bg-white px-3 lg:pt-0 flex flex-col items-center space-y-8 ">
           <h1 className=" md:pt-1 mt-10 lg:mt-0 text-2xl font-bold text-blue ">
