@@ -11,6 +11,7 @@ function HomePage() {
       <AboutPage />
       <AbilityPage />
       <PendidikanPage />
+      <ProjectPage />
     </>
   );
 }
